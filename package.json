@@ -1,0 +1,16 @@
+{
+  "name": "webgis",
+  "version": "0.0.1",
+  "description": "web-based geospatial information system javascript library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/jingbo/webgis.git"
+  },
+  "author": "Jingbo",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/jingbo/webgis#readme"
+}
