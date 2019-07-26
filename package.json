@@ -1,6 +1,6 @@
 {
   "name": "webgis",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "web-based geospatial information system javascript library",
   "main": "./release/altizure-gl-engine.min.js",
   "scripts": {
