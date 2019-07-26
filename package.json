@@ -2,15 +2,20 @@
   "name": "webgis",
   "version": "0.0.1",
   "description": "web-based geospatial information system javascript library",
-  "main": "index.js",
+  "main": "./release/altizure-gl-engine.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/jingbo/webgis.git"
+    "url": "https://github.com/jingbogit/webgis"
   },
   "author": "Jingbo",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/jingbo/webgis#readme"
+  "homepage": "https://github.com/jingbogit/webgis",
+  "peerDependencies": {
+    "altizure-gl-engine": "^3.0.16",
+    "axios": "^0.19.0",
+    "three": "0.97.0"
+  }
 }
