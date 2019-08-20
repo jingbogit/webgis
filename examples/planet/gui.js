@@ -3,7 +3,7 @@ let gui = new dat.GUI()
 
 var control = {
   map: 'build-in-0',
-  showWireframe: false
+  showWireframe: true
 }
 
 let maps = {
