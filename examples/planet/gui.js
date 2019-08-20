@@ -2,7 +2,8 @@
 let gui = new dat.GUI()
 
 var control = {
-  map: 'build-in-0'
+  map: 'build-in-0',
+  showWireframe: false
 }
 
 let maps = {
@@ -39,6 +40,12 @@ let maps = {
 gui.add(control, 'map', [ 'build-in-0', 'build-in-1', 'build-in-2', 'Customize-map', 'Customize-map2', 'alti-static', 'mapbox-terrain-rgb' ] ).onChange((val) => {
   console.log(val)
   earth.renderItems.planet.wmtsTileURL = maps[val]
+})
+
+gui.add(control, 'showWireframe').onChange((val) => {
+  console.log(val)
+  earth.renderItems.planet.showPlanetWireframe = val
+  // earth.renderItems.planet.wmtsTileURL = maps[val]
 })
 // function setupuiformtl (linemtl) {
 //   gui.add(linemtl, 'heightInterval', 1, 100, 1).onChange(function (v) {
